@@ -5,7 +5,7 @@ package auth;
 option go_package = "forFun.sso.v1;ssov1";
 
 service Auth {
-    rpc Regiser (RegisterRequest) returns (RegisterResponse);
+    rpc Register (RegisterRequest) returns (RegisterResponse);
     rpc Login (LoginRequest) returns (LoginResponse);
     rpc isAdmin (IsAdminRequest) returns (IsAdminResponse);
 }
